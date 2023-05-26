@@ -5,9 +5,9 @@ const Navbar = () => {
     <>
     <header className={classes.header}>
       <nav className={classes.navbar}>
+        <h1>PizzApp</h1>
         <ul>
           <li>Pizzas</li>
-          <li>Contact</li>
           <li>My Order</li>
         </ul>
       </nav>
