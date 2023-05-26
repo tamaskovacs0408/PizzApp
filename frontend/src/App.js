@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "./components/Layout";
+import Layout from "./pages/Layout";
 
 const routerSettings = createBrowserRouter([
   { path: "/", element: <Layout /> },
