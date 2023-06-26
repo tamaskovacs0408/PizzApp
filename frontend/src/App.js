@@ -1,8 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./pages/Layout";
+import Pizzas from "./pages/Pizzas";
 
 const routerSettings = createBrowserRouter([
-  { path: "/", element: <Layout /> },
+  { path: "/", element: <Layout />, children: [
+    {path: "/pizzas", element: <Pizzas />}
+  ] },
 ]);
 
 function App() {
